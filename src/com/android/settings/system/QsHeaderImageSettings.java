@@ -205,11 +205,13 @@ public class QsHeaderImageSettings extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_CUSTOM_HEADER, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_CUSTOM_HEADER_SHADOW, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.STATUS_BAR_CUSTOM_HEADER_HEIGHT, 142, UserHandle.USER_CURRENT);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NASP;
+        return MetricsProto.MetricsEvent.YASP;
     }
 
     @Override
