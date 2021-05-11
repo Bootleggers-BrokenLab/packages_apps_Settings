@@ -710,7 +710,9 @@
     <string name="security_dashboard_summary">Screen lock, fingerprint</string>
     <!-- Summary for Security settings when fingerprint is not supported [CHAR LIMIT=NONE]-->
     <string name="security_dashboard_summary_no_fingerprint">Screen lock</string>
-
+    <!-- Authentication vibration -->
+    <string name="sucess_vib_title">Authentication vibration</string>
+    <string name="sucess_vib_summary">Haptic feedback for fingerprint and face authentication when successful</string>
     <!-- Face enrollment and settings --><skip />
     <!-- Message shown in summary field when face unlock is set up. [CHAR LIMIT=40] -->
     <string name="security_settings_face_preference_summary">Face added</string>
