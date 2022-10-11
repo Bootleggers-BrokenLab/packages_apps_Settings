@@ -178,6 +178,13 @@
           android:key="dial_pad_tones"
           android:title="@string/dial_pad_tones_title"/>
 
+        <!-- Successful authentication -->
+        <SwitchPreference
+          android:key="sucess_vib"
+          android:title="@string/sucess_vib_title"
+          android:summary="@string/sucess_vib_summary"
+          settings:controller="com.android.settings.notification.AuthenticationVibrationPreferenceController"/>
+          
         <!-- Screen locking sounds -->
         <SwitchPreference
           android:key="screen_locking_sounds"
