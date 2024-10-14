@@ -22,9 +22,9 @@
     settings:keywords="@string/keywords_android_version">
 
     <com.android.settingslib.widget.LayoutPreference
-        android:layout="@layout/bootleggers_logo_layout"
+        android:layout="@layout/bootleg_about"
         android:selectable="false"
-        android:key="bootleggers_logo"
+        android:key="bootleg_about"
         settings:searchable="false" />
 
     <!-- Android version -->
