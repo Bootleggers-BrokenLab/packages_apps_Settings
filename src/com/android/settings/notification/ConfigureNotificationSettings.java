@@ -41,7 +41,7 @@ import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreferenceCompat;
 
-import com.android.internal.util.yaap.YaapUtils;
+import com.android.internal.util.bootleggers.YaapUtils;
 import com.android.settings.R;
 import com.android.settings.RingtonePreference;
 import com.android.settings.core.OnActivityResultListener;

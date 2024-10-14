@@ -451,7 +451,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
-            // Others (YAAP Additions)
+            // Others (BOOTLEGGERS Additions)
             Settings.GamingModeActivity.class.getName(),
             Settings.PreviouslyConnectedDeviceDashboardActivity.class.getName(),
             Settings.WirelessDebuggingActivity.class.getName(),

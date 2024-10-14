@@ -50,7 +50,7 @@ public class AboutYaap extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.yaap_settings_about;
+        return R.xml.bootleggers_settings_about;
     }
 
     @Override
@@ -118,5 +118,5 @@ public class AboutYaap extends DashboardFragment {
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.yaap_settings_about);
+            new BaseSearchIndexProvider(R.xml.bootleggers_settings_about);
 }

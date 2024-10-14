@@ -74,7 +74,7 @@ public class NetTrafficMonSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.yaap_settings_net_traffic;
+        return R.xml.bootleggers_settings_net_traffic;
     }
 
     @Override
@@ -211,5 +211,5 @@ public class NetTrafficMonSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.yaap_settings_net_traffic);
+            new BaseSearchIndexProvider(R.xml.bootleggers_settings_net_traffic);
 }

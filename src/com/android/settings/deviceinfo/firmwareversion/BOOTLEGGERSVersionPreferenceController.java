@@ -22,12 +22,12 @@ import androidx.annotation.VisibleForTesting;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class YAAPVersionPreferenceController extends BasePreferenceController {
+public class BOOTLEGGERSVersionPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
-    public static final String YAAP_PROP = "ro.yaap.version";
+    public static final String BOOTLEGGERS_PROP = "ro.bootleggers.version";
 
-    public YAAPVersionPreferenceController(Context context, String preferenceKey) {
+    public BOOTLEGGERSVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
     }
 
@@ -38,7 +38,7 @@ public class YAAPVersionPreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(YAAP_PROP,
+        return SystemProperties.get(BOOTLEGGERS_PROP,
                 mContext.getString(R.string.device_info_default));
     }
 }

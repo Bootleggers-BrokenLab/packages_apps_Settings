@@ -24,9 +24,9 @@ import android.content.pm.PackageManager.PackageInfoFlags;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class YAAPChangelogPreferenceController extends BasePreferenceController {
+public class BOOTLEGGERSChangelogPreferenceController extends BasePreferenceController {
 
-    public YAAPChangelogPreferenceController(Context context, String preferenceKey) {
+    public BOOTLEGGERSChangelogPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
     }
 

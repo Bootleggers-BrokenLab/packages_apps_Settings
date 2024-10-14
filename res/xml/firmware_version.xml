@@ -22,9 +22,9 @@
     settings:keywords="@string/keywords_android_version">
 
     <com.android.settingslib.widget.LayoutPreference
-        android:layout="@layout/yaap_logo_layout"
+        android:layout="@layout/bootleggers_logo_layout"
         android:selectable="false"
-        android:key="yaap_logo"
+        android:key="bootleggers_logo"
         settings:searchable="false" />
 
     <!-- Android version -->
@@ -68,14 +68,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
-    <!-- YAAP Version -->
+    <!-- BOOTLEGGERS Version -->
     <Preference
-        android:key="yaap_version"
-        android:title="@string/yaap_version"
+        android:key="bootleggers_version"
+        android:title="@string/bootleggers_version"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.YAAPVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BOOTLEGGERSVersionPreferenceController"/>
 
     <!-- Build -->
     <Preference
@@ -88,10 +88,10 @@
 
     <!-- Changelog -->
     <Preference
-        android:key="yaap_changelog"
-        android:title="@string/yaap_changelog_title"
-        android:summary="@string/yaap_changelog_summary"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.YAAPChangelogPreferenceController">
+        android:key="bootleggers_changelog"
+        android:title="@string/bootleggers_changelog_title"
+        android:summary="@string/bootleggers_changelog_summary"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BOOTLEGGERSChangelogPreferenceController">
         <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="@string/update_package"
                 android:targetClass="@string/changelog_activity" />
