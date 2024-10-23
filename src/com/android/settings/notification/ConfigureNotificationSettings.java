@@ -41,7 +41,7 @@ import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreferenceCompat;
 
-import com.android.internal.util.yaap.YaapUtils;
+import com.android.internal.util.bootleggers.BootleggersUtils;
 import com.android.settings.R;
 import com.android.settings.RingtonePreference;
 import com.android.settings.core.OnActivityResultListener;
@@ -123,7 +123,7 @@ public class ConfigureNotificationSettings extends DashboardFragment implements
             prefScreen.removePreference(incallVibCategory);
         }
 
-        if (!YaapUtils.deviceHasFlashlight(getActivity())) {
+        if (!BootleggersUtils.deviceHasFlashlight(getActivity())) {
             PreferenceCategory flashOnCallCategory = (PreferenceCategory)
                     findPreference(FLASH_ON_CALL_OPTIONS);
             prefScreen.removePreference(flashOnCallCategory);

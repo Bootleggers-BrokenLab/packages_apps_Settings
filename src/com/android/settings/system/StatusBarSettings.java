@@ -78,7 +78,7 @@ public class StatusBarSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.yaap_settings_statusbar;
+        return R.xml.bootleggers_settings_statusbar;
     }
 
     @Override
@@ -263,5 +263,5 @@ public class StatusBarSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.yaap_settings_statusbar);
+            new BaseSearchIndexProvider(R.xml.bootleggers_settings_statusbar);
 }

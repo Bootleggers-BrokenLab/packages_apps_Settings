@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2023 YAAP
+<!-- Copyright (C) 2023 BOOTLEGGERS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,15 +54,15 @@
     <string name="prevent_ringing_option_normal">Normal</string>
 
     <!-- OTA App -->
-    <string name="update_settings_title">Оновлення YAAP</string>
+    <string name="update_settings_title">Оновлення BOOTLEGGERS</string>
     <string name="update_settings_summary">Перевірити доступні оновлення прошивки</string>
 
-    <!-- YAAP Version -->
-    <string name="yaap_version">Версія YAAP</string>
+    <!-- BOOTLEGGERS Version -->
+    <string name="bootleggers_version">Версія BOOTLEGGERS</string>
 	
-    <!-- YAAP Changelog -->
-    <string name="yaap_changelog_title">Список змін</string>
-    <string name="yaap_changelog_summary">Показати список останніх змін і версію YAAP</string>
+    <!-- BOOTLEGGERS Changelog -->
+    <string name="bootleggers_changelog_title">Список змін</string>
+    <string name="bootleggers_changelog_summary">Показати список останніх змін і версію BOOTLEGGERS</string>
 
     <!-- QSTile requires unlocking before being accessible -->
     <string name="qstile_requires_unlocking_title">Важливі плитки в шторці вимагають розблокування</string>
@@ -350,9 +350,9 @@
     <!-- ETC category -->
     <string name="etc_category_title">Інше</string>
 
-    <!-- About YAAP -->
-    <string name="about_yaap_title">Про YAAP</string>
-    <string name="about_yaap_summary">наша команда, відкритий код, група Telegram тощо</string>
+    <!-- About BOOTLEGGERS -->
+    <string name="about_bootleggers_title">Про BOOTLEGGERS</string>
+    <string name="about_bootleggers_summary">наша команда, відкритий код, група Telegram тощо</string>
 
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
@@ -372,7 +372,7 @@
     <!-- YASP Import -->
 
     <!-- App Title -->
-    <string name="yaap_settings_title">Налаштування YAAP</string>
+    <string name="bootleggers_settings_title">Налаштування BOOTLEGGERS</string>
 
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
@@ -416,7 +416,7 @@
     <!-- QS footer text -->
     <string name="qs_footer_text_show_title">Відображати текст у нижньому колонтитулі швидких налаштувань</string>
     <string name="qs_footer_text_string_title">Власний текст у нижньому колонтитулі швидких налаштувань</string>
-    <string name="qs_footer_text_string_summary">Залишіть пустим для стандартного тексту YAAP</string>
+    <string name="qs_footer_text_string_summary">Залишіть пустим для стандартного тексту BOOTLEGGERS</string>
 
     <!-- About -->
     <string name="about_title">Про нас</string>

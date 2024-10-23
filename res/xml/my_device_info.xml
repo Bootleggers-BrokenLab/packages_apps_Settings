@@ -60,13 +60,13 @@
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
-        <!-- About YAAP -->
+        <!-- About BOOTLEGGERS -->
         <Preference
             android:key="about_category"
             android:order="8"
-            android:title="@string/about_yaap_title"
-            android:summary="@string/about_yaap_summary"
-            android:fragment="com.android.settings.deviceinfo.AboutYaap" />
+            android:title="@string/about_bootleggers_title"
+            android:summary="@string/about_bootleggers_summary"
+            android:fragment="com.android.settings.deviceinfo.AboutBootleggers" />
 
         <!-- Phone number -->
         <Preference
