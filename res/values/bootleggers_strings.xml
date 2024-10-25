@@ -54,7 +54,7 @@
     <string name="prevent_ringing_option_normal">Normal</string>
 
     <!-- OTA App -->
-    <string name="update_settings_title">BOOTLEGGERS Updater</string>
+    <string name="update_settings_title">Bootleggers Updater</string>
     <string name="update_settings_summary">Check for the latest version of the rom</string>
     <string name="update_package" translatable="false">eu.chainfire.opendelta</string>
     <string name="update_activity" translatable="false">eu.chainfire.opendelta.MainActivity</string>
@@ -64,11 +64,11 @@
     <string name="radio_info_title">Radio diagnostics</string>
 
     <!-- BOOTLEGGERS Version -->
-    <string name="bootleggers_version">BOOTLEGGERS Build</string>
+    <string name="bootleggers_version">Bootleggers Build</string>
 
     <!-- BOOTLEGGERS Changelog -->
     <string name="bootleggers_changelog_title">Changelog</string>
-    <string name="bootleggers_changelog_summary">View the changelogs of recent and current BOOTLEGGERS version</string>
+    <string name="bootleggers_changelog_summary">View the changelogs of recent and current Bootleggers version</string>
 
     <!-- QSTile requires unlocking before being accessible -->
     <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
@@ -387,7 +387,7 @@
     <string name="etc_category_title">ETC</string>
 
     <!-- About BOOTLEGGERS -->
-    <string name="about_bootleggers_title">About BOOTLEGGERS</string>
+    <string name="about_bootleggers_title">About Bootleggers</string>
     <string name="about_bootleggers_summary">Our team, source code, telegram group and more</string>
 
     <!-- YASP Import -->
@@ -438,40 +438,29 @@
     <!-- QS footer text -->
     <string name="qs_footer_text_show_title">Show QS footer text</string>
     <string name="qs_footer_text_string_title">Customize footer text</string>
-    <string name="qs_footer_text_string_summary">Set to empty for default BOOTLEGGERS</string>
+    <string name="qs_footer_text_string_summary">Set to empty for default Bootleggers</string>
 
     <!-- About -->
     <string name="about_title">About</string>
     <string name="about_team_category">Our Team</string>
     <string name="about_external_category">External Links</string>
-    <string name="about_dev_title">Co-Lead</string>
-    <string name="about_dev_name">Adhitya Mohan</string>
-    <string name="about_dev_git" translatable="false">https://github.com/poad42</string>
+    <string name="about_dev_title">Lead</string>
+    <string name="about_dev_name">Hernán Figueroa (El Dainosor)</string>
+    <string name="about_dev_git" translatable="false">https://github.com/eldainosor</string>
     <string name="about_dev2_title">Co-Lead</string>
-    <string name="about_dev2_name">Ido Ben-Hur</string>
-    <string name="about_dev2_git" translatable="false">https://github.com/idoybh</string>
-    <string name="about_dev3_title">Member</string>
-    <string name="about_dev3_name">Omkar Chandorkar</string>
-    <string name="about_dev3_git" translatable="false">https://github.com/gotenksIN</string>
-    <string name="maintainer">Device Maintainer</string>
-    <string name="maintainer_name" translatable="false"></string>
-    <string name="maintainer_telegram" translatable="false"></string>
-    <string name="kernel">Kernel Developer</string>
-    <string name="kernel_name" translatable="false"></string>
-    <string name="kernel_telegram" translatable="false"></string>
+    <string name="about_dev2_name">tribual</string>
+    <string name="about_dev2_git" translatable="false">https://github.com/tribual</string>
     <string name="about_tg_title">Telegram Group</string>
     <string name="about_tg_summary">Official, Global Telegram Group</string>
-    <string name="about_tg_link" translatable="false">https://t.me/bootleggerscommon</string>
+    <string name="about_tg_link" translatable="false">https://t.me/keepthebootleg</string>
     <string name="about_git_title">Source Code</string>
     <string name="about_git_summary">View our source on GitHub</string>
-    <string name="about_git_link" translatable="false">https://github.com/bootleggers</string>
+    <string name="about_git_link" translatable="false">https://github.com/BootleggersROM</string>
     <string name="about_phone_title">About Phone</string>
     <string name="about_phone_summary">Open the system\'s about page</string>
     <string name="designer_title">Designer</string>
-    <string name="designer_name">Ahmed Harhash</string>
-    <string name="designer_tg" translatable="false">https://t.me/Lacentix</string>
-    <string name="designer2_name">The Knight</string>
-    <string name="designer2_tg" translatable="false">https://t.me/i_TheKnight</string>
+    <string name="designer_name">no one</string>
+    <string name="designer_tg" translatable="false">https://t.me/tribual</string>
 
     <!-- Statusbar network traffic monitor -->
     <string name="network_traffic_state_title">Network traffic display</string>
